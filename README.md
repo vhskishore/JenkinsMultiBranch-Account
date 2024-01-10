@@ -25,5 +25,7 @@
 Two Pipelines:
 1. Infrastructure Pipeline - Packer, Terraform, Ansible to build Docker Swarm 3-Node Cluster.
 2. CICD Pipeline. (SpringPetClinic) Build Java Application with Maven and then copy artifact to Jfrog and create a Docker Image using Dockerfile and Deploy it to Docker Swarm.
+3. Enable Passwordless authentication on slaves. Copy Jenkins_Master idrsa_pub to authorizedkeys in slaves.
+4. Add Nodes in Jenkins Portal.
 
 /var/lib/jenkins/.ssh/
